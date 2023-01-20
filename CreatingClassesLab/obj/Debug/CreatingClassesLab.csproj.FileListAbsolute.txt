@@ -1,0 +1,8 @@
+C:\Users\oribe\Documents\SAIT\OOP C#\CreatingClassesLab\CreatingClassesLab\bin\Debug\CreatingClassesLab.exe.config
+C:\Users\oribe\Documents\SAIT\OOP C#\CreatingClassesLab\CreatingClassesLab\bin\Debug\CreatingClassesLab.exe
+C:\Users\oribe\Documents\SAIT\OOP C#\CreatingClassesLab\CreatingClassesLab\bin\Debug\CreatingClassesLab.pdb
+C:\Users\oribe\Documents\SAIT\OOP C#\CreatingClassesLab\CreatingClassesLab\obj\Debug\CreatingClassesLab.csproj.AssemblyReference.cache
+C:\Users\oribe\Documents\SAIT\OOP C#\CreatingClassesLab\CreatingClassesLab\obj\Debug\CreatingClassesLab.csproj.SuggestedBindingRedirects.cache
+C:\Users\oribe\Documents\SAIT\OOP C#\CreatingClassesLab\CreatingClassesLab\obj\Debug\CreatingClassesLab.csproj.CoreCompileInputs.cache
+C:\Users\oribe\Documents\SAIT\OOP C#\CreatingClassesLab\CreatingClassesLab\obj\Debug\CreatingClassesLab.exe
+C:\Users\oribe\Documents\SAIT\OOP C#\CreatingClassesLab\CreatingClassesLab\obj\Debug\CreatingClassesLab.pdb
