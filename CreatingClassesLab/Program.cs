@@ -15,7 +15,9 @@ namespace CreatingClassesLab
             // Format variables
             string newLine = "\n";
 
+
             // For this lab, we are skipping the Relation class, as instructed by the professor
+
 
             // a) Person objects
             Person firstPerson = new Person(1, "Ian", "Brooks", "Red", 30, true);
@@ -26,6 +28,7 @@ namespace CreatingClassesLab
 
             // b) Gina's information as a sentence
             secondPerson.DisplayPersonInfo();
+
 
             // c) Mike's information as a list
             Console.WriteLine(thirdPerson.ToString());
@@ -56,22 +59,18 @@ namespace CreatingClassesLab
 
 
             // g) 2. Youngest person
-
             Console.WriteLine("The youngest person is: " + personManager.GetYoungestPerson() + newLine);
 
 
             // g) 3. Oldest person
-
             Console.WriteLine("The oldest person is: " + personManager.GetOldestPerson() + newLine);
 
 
             // g) 4. Names of the people whose first names start with M
-
             Console.WriteLine(personManager.GetNamesStartingWithM() + newLine);
 
 
             // g) 5. Person information of the person that likes color blue
-
             personManager.GetBlueFan();
 
         }
