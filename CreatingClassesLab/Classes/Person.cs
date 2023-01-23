@@ -11,16 +11,41 @@ namespace CreatingClassesLab.Classes
     ///  This class represents a person
     /// </summary>
     /// <remarks> Author: Ori Bermudez </remarks>
-    /// <remarks> Date: January 19, 2023 </remarks>
+    /// <remarks> Date: January 22, 2023 </remarks>
     internal class Person
     {
         // Fields
-        private int personId;
-        public string firstName;
-        private string lastName;
-        public string favoriteColour;
-        public int age;
-        private bool isWorking;
+        private readonly int personId;
+        private readonly string firstName;
+        private readonly string lastName;
+        private string favoriteColour;
+        private readonly int age;
+        private readonly bool isWorking;
+
+        // Properties
+        public string FirstName
+        {   
+            get
+            {
+                return this.firstName;
+            }
+        }
+
+        public string FavoriteColour
+        {
+            get
+            {
+                return this.favoriteColour;
+            }
+        }
+
+        public int Age
+        {
+            get
+            {
+                return this.age;
+            }
+        }
 
         /// <summary>
         /// Class constructor
@@ -51,11 +76,11 @@ namespace CreatingClassesLab.Classes
             string lastName = this.lastName;
             string favoriteColor = this.favoriteColour;
 
-            Console.WriteLine(personId + ": " +firstName + " " + lastName + " favorite colour is " + favoriteColor);
+            Console.WriteLine(personId + ": " + firstName + " " + lastName + " favorite colour is " + favoriteColor + "\n");
         }
 
         /// <summary>
-        /// Public method that sets a new value to favoriteColour field
+        /// Public method that changes the value of favorite colour field
         /// </summary>
         /// <param name="favoriteColor"></param>
         public void ChangeFavoriteColour(string favoriteColor)
@@ -64,9 +89,9 @@ namespace CreatingClassesLab.Classes
         }
 
         /// <summary>
-        /// Method that adds 10 years to the person's age
+        /// Public method that adds 10 years to the person's age
         /// </summary>
-        /// <returns> Returns an int </returns>
+        /// <returns> Returns a string </returns>
         public string GetAgeInTenYears()
         {
             int tenYearsOlder = age + 10;
@@ -75,7 +100,7 @@ namespace CreatingClassesLab.Classes
         }
 
         /// <summary>
-        /// Method that displays all the person data as a list
+        /// Public method that displays all the person data as a list
         /// </summary>
         /// <returns> Returns a string </returns>
         public override string ToString()
