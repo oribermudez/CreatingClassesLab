@@ -31,6 +31,14 @@ namespace CreatingClassesLab.Classes
             }
         }
 
+        public string LastName
+        {
+            get
+            {
+                return this.lastName;
+            }
+        }
+
         public string FavoriteColour
         {
             get
@@ -76,7 +84,7 @@ namespace CreatingClassesLab.Classes
             string lastName = this.lastName;
             string favoriteColor = this.favoriteColour;
 
-            Console.WriteLine(personId + ": " + firstName + " " + lastName + " favorite colour is " + favoriteColor + "\n");
+            Console.WriteLine(personId + ": " + firstName + "'s " + lastName + " favorite colour is " + favoriteColor + "\n");
         }
 
         /// <summary>

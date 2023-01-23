@@ -92,7 +92,7 @@ namespace CreatingClassesLab.Classes
                 string mLetter = "M";
                 if (firstLetter == mLetter)
                 {
-                    namesWithM += person.FirstName + ", ";
+                    namesWithM += person.FirstName + " " + person.LastName + ", ";
                 }
             }
             namesWithM += "first names start with M";
