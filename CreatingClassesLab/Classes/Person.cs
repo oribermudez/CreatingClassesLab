@@ -113,15 +113,14 @@ namespace CreatingClassesLab.Classes
         /// <returns> Returns a string </returns>
         public override string ToString()
         {
-            object[] fieldValues = { this.personId, this.firstName, this.lastName, this.favoriteColour, this.age, this.isWorking };
-            string[] fieldNames = { "Person Id", "First Name", "Last Name", "Favorite Color", "Age", "Is working" };
-
             string dataList = string.Empty;
-            for (int index = 0; index < fieldValues.Count(); index++)
-            {
-                var item = fieldNames[index] + ": " + fieldValues[index] + "\n";
-                dataList += item;
-            }
+
+            dataList += "Person Id: " + this.personId + "\n";
+            dataList += "First Name: " + this.firstName + "\n";
+            dataList += "Last Name: " + this.lastName + "\n";
+            dataList += "Favorite Color: " + this.favoriteColour + "\n";
+            dataList += "Age: " + this.age + "\n";
+            dataList += "Is Working: " + this.isWorking + "\n";
 
             return dataList;
         }
